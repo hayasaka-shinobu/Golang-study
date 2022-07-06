@@ -13,3 +13,14 @@ import "fmt"
 func main() {
 	fmt.Println("諦めない，子供の未来の為にまだ出来るでしょ？")　//2022.7.5目標：この文章で出力されるはず。でも、どこの出力されるのか分からないから調べる。
 }　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　//Gitが正解？そもそもここで書くのが間違ってるかも。調べる。本日終了。
+
+package main
+
+import "fmt"
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　   //2022.7.6　出力先の件いまだに解決できない。Tour of Go が終わる前に解決したい。
+var i, j int = 3,4                                               //Var宣言。int型なので数字しか入力できない。３，４の所を５，６にしたら、結果は「５，６，true, false, no!」になる
+
+func main() {　　　　　　　　　　　　　　　　　　　　　　　　　　　　 //hoge1だったらtrue。hoge2だったらfalseとか判断する指示は必要ないのかな？この後出てくる？　
+	var c, python, java = true, false, "no!"                 //泣かない。時間がもったいない。　本日終了。
+	fmt.Println(i, j, c, python, java)
+}
