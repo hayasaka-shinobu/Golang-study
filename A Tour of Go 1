@@ -24,3 +24,17 @@ func main() {　　　　　　　　　　　　　　　　　　　　　　�
 	var c, python, java = true, false, "no!"                 //泣かない。時間がもったいない。　本日終了。
 	fmt.Println(i, j, c, python, java)
 }
+
+
+package main
+
+import "fmt"
+
+func main() {
+	d, o := "Be", "so"
+	n := "good"
+	t := "they"
+	c, r, y := "can't", "ignore", "you."
+
+	fmt.Println(d, o, n, t, c, r, y)
+}
